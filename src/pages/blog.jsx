@@ -1,5 +1,6 @@
 import Testimony from '../components/carouseltestimony'
 import Footer from '../components/footer'
+import image2 from '../assets/img/bg-about.jpg'
 export default function blog () {
   return (
     <>
@@ -7,7 +8,7 @@ export default function blog () {
         <section
           className=' jumbotron breadcumb relative  h-[50vh]  object-cover items-center bg-center object-center bg-cover w-full'
           style={{
-            backgroundImage: `url(${'/src/assets/img/testimony.jpg'})`
+            backgroundImage: `url(${image2})`
           }}
         >
           <div>
@@ -30,7 +31,7 @@ export default function blog () {
             <div className='col-md-8'>
               <div className='left'>
                 <div className='mainimg'>
-                  <img src='/src/assets/img/service3.jpg' alt='imgservice' />
+                  <img src={image2} alt='imgservice' />
                 </div>
                 <div className='content'>
                   <div className='title'>Exterior</div>
@@ -75,10 +76,7 @@ export default function blog () {
                   <li>
                     <a className='recent' href='/blog'>
                       <div className='img'>
-                        <img
-                          src='/src/assets/img/service.jpg'
-                          alt='imgservice'
-                        />
+                        <img src={image2} alt='imgservice' />
                       </div>
                       <div className='contblog'>
                         <div className='title'>Lorem ipsum dolor sit</div>
@@ -92,7 +90,7 @@ export default function blog () {
                     <a className='recent' href='/blog'>
                       <div className='img'>
                         <img
-                          src='/src/assets/img/service2.jpg'
+                          src={image2}
                           alt='imgservice'
                         />
                       </div>
@@ -108,7 +106,7 @@ export default function blog () {
                     <a className='recent' href='/blog'>
                       <div className='img'>
                         <img
-                          src='/src/assets/img/service3.jpg'
+                          src={image2}
                           alt='imgservice'
                         />
                       </div>
@@ -166,7 +164,7 @@ export default function blog () {
                 </ul> */}
                 <div className='bannerservice'>
                   <div className='imgbg'>
-                    <img src='/src/assets/img/bg-widget.jpg' alt='imgservice' />
+                    <img src={image2} alt='imgservice' />
                   </div>
                   <div className='contb'>
                     <div className='headingb'>Get A quote</div>

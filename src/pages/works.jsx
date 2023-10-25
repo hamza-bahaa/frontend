@@ -1,5 +1,6 @@
 //import ImageGallery from '../components/ImageGallery'
 import Footer from '../components/footer'
+import image1 from '../assets/img/bg-about.jpg'
 import ImageGallery from '../components/ImageGallerys'
 
 export default function Works () {
@@ -9,7 +10,7 @@ export default function Works () {
         <section
           className=' jumbotron breadcumb relative  h-[50vh]  object-cover items-center bg-center object-center bg-cover w-full'
           style={{
-            backgroundImage: `url(${'/src/assets/img/porto.jpg'})`
+            backgroundImage: `url(${image1})`
           }}
         >
           <div>

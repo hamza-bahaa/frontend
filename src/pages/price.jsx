@@ -1,6 +1,7 @@
 import Pricing from '../components/pricing'
 import Testimony from '../components/carouseltestimony'
 import Footer from '../components/footer'
+import image2 from '../assets/img/bg-about.jpg'
 
 export default function Price () {
   return (
@@ -9,7 +10,7 @@ export default function Price () {
         <section
           className=' jumbotron breadcumb relative  h-[50vh]  object-cover items-center bg-center object-center bg-cover w-full'
           style={{
-            backgroundImage: `url(${'/src/assets/img/price.jpg'})`
+            backgroundImage: `url(${image2})`
           }}
         >
           <div>

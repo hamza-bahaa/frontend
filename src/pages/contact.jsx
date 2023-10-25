@@ -1,6 +1,7 @@
 //import emailjs from 'emailjs-com'
 
 import Footer from '../components/footer'
+import image2 from '../assets/img/bg-about.jpg'
 
 export default function contact () {
   function sendEmail (e) {
@@ -40,7 +41,7 @@ export default function contact () {
       <section
         className=' jumbotron breadcumb relative  h-[50vh]  object-cover items-center bg-center object-center bg-cover w-full'
         style={{
-          backgroundImage: `url(${'/src/assets/img/contact.jpg'})`
+          backgroundImage: `url(${image2})`
         }}
       >
         <div>

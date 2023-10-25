@@ -1,31 +1,33 @@
 import ImageItems from './ImageItems'
 import ImageGallery from 'react-image-grid-gallery'
+import Footer from '../components/footer'
+import image1 from '../assets/img/bg-about.jpg'
 
 const imagesArray = [
   {
-    alt: "Image1 alt text",
-    caption: "Image1  Description",
-    src: '../../src/assets/img/porto.jpg'
+    alt: 'Image1 alt text',
+    caption: 'Image1  Description',
+    src: {image1}
   },
   {
-    alt: "Image2 alt text",
-    caption: "Image2  description",
-    src: '../../src/assets/img/service3.jpg'
+    alt: 'Image2 alt text',
+    caption: 'Image2  description',
+    src: '../assets/img/service3.jpg'
   },
   {
-    alt: "Image1 alt text",
-    caption: "Image1  description",
-    src: '../../src/assets/img/porto.jpg'
+    alt: 'Image1 alt text',
+    caption: 'Image1  description',
+    src: '../assets/img/porto.jpg'
   },
   {
-    alt: "Image2 alt text",
-    caption: "Image2  description",
-    src: '../../src/assets/img/porto.jpg'
+    alt: 'Image2 alt text',
+    caption: 'Image2  description',
+    src: '../assets/img/porto.jpg'
   },
   {
-    alt: "Image3 alt text",
-    caption: "Image3  description",
-    src: '../../src/assets/img/porto.jpg'
+    alt: 'Image3 alt text',
+    caption: 'Image3  description',
+    src: '../assets/img/porto.jpg'
   }
 ]
 
@@ -39,7 +41,7 @@ export default function ImageGallerys () {
             imgArray={imagesArray}
             columnWidth={400}
             gapSize={24}
-            style={{ width: '100%'  }}
+            style={{ width: '100%' }}
           />
         </div>
       </section>

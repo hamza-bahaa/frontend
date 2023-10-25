@@ -1,5 +1,6 @@
 import Testimony from '../components/carouseltestimony'
 import Footer from '../components/footer'
+import image2 from '../assets/img/bg-about.jpg'
 
 const Service3 = () => {
   return (
@@ -8,7 +9,7 @@ const Service3 = () => {
         <section
           className=' jumbotron breadcumb relative  h-[50vh]  object-cover items-center bg-center object-center bg-cover w-full'
           style={{
-            backgroundImage: `url(${'/src/assets/img/service.jpg'})`
+            backgroundImage: `url(${image2})`
           }}
         >
           <div>
@@ -31,7 +32,7 @@ const Service3 = () => {
             <div className='col-md-8'>
               <div className='left'>
                 <div className='mainimg'>
-                  <img src='/src/assets/img/bg-about.jpg' alt='imgservice' />
+                  <img src={image2} alt='imgservice' />
                 </div>
                 <div className='content'>
                   <div className='title'> MODERN DESIGN</div>
@@ -92,7 +93,7 @@ const Service3 = () => {
                 </ul>
                 <div className='bannerservice'>
                   <div className='imgbg'>
-                    <img src='/src/assets/img/bg-widget.jpg' alt='imgservice' />
+                    <img src={image2} alt='imgservice' />
                   </div>
                   <div className='contb'>
                     <div className='headingb'>Get A quote</div>

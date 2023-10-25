@@ -3,15 +3,16 @@ import Bannercontact from '../components/bannercontact'
 import Pricing from '../components/pricing'
 import Testimony from '../components/carouseltestimony'
 import Footer from '../components/footer'
+import image2 from '../assets/img/bg-about.jpg'
 
 export default function Home1 () {
   return (
     <>
       <div>
         <section
-          className='jumbotron breadcumb object-cover bg-center     object-cover bg-center h-vh'
+          className='jumbotron breadcumb object-cover bg-center h-vh'
           style={{
-            backgroundImage: `url(${'/src/assets/img/imghome1.jpg'})`
+            backgroundImage: `url(${image2})`
           }}
         >
           <div className='homebread'>
@@ -65,11 +66,7 @@ export default function Home1 () {
         <section className='container-fluid p-0 black'>
           <div className='row'>
             <div className='col-md-6 pr-md-0'>
-              <img
-                src='/src/assets/img/blog.jpg'
-                className='imgslickz'
-                alt='#'
-              />
+              <img src={image2} className='imgslickz' alt='#' />
             </div>
 
             <div className='col-md-6 centered p-5'>
@@ -108,7 +105,7 @@ export default function Home1 () {
 
             <div className='col-md-6 pl-md-0'>
               <img
-                src='/src/assets/img/blog1.jpg'
+                src={image2}
                 className='imgslickz'
                 alt='#'
               />

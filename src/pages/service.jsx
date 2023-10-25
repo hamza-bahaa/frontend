@@ -1,5 +1,6 @@
 import Testimony from '../components/carouseltestimony'
 import Footer from '../components/footer'
+import image2 from '../assets/img/bg-about.jpg'
 
 export default function Service () {
   return (
@@ -8,7 +9,7 @@ export default function Service () {
         <section
           className='jumbotron breadcumb  h-[50vh]  object-cover object-center bg-cover w-full'
           style={{
-            backgroundImage: `url(${'/src/assets/img/testimony.jpg'})`
+            backgroundImage: `url(${image2})`
           }}
         >
           <div className=' pt-[80px] text-center items-center flex  justify-center w-ful   '>
@@ -23,7 +24,7 @@ export default function Service () {
             <div className='col-md-8'>
               <div className='left'>
                 <div className='mainimg'>
-                  <img src='/src/assets/img/service.jpg' alt='imgservice' />
+                  <img src={image2} alt='imgservice' />
                 </div>
                 <div className='content'>
                   <div className='title'>
@@ -86,7 +87,7 @@ export default function Service () {
                 </ul>
                 <div className='bannerservice'>
                   <div className='imgbg'>
-                    <img src='/src/assets/img/bg-widget.jpg' alt='imgservice' />
+                    <img src={image2} alt='imgservice' />
                   </div>
                   <div className='contb'>
                     <div className='headingb'>Get A quote</div>

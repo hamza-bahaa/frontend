@@ -4,6 +4,7 @@ import Bannercontact from '../components/bannercontact'
 import Pricing from '../components/pricing'
 import Testimony from '../components/carouseltestimony'
 import Footer from '../components/footer'
+import image2 from '../assets/img/bg-about.jpg'
 
 export default function Home () {
   return (
@@ -23,7 +24,7 @@ export default function Home () {
             <div className='col-md-4 p-0'>
               <div className='features'>
                 <div className='bg'>
-                  <img src='/src/assets/img/bg-serv-1.jpg' alt='bg-features' />
+                  <img src={image2} alt='bg-features' />
                 </div>
                 <div className='content'>
                   <div className='heading'>Concept Design</div>
@@ -43,7 +44,7 @@ export default function Home () {
             <div className='col-md-4 p-0'>
               <div className='features'>
                 <div className='bg'>
-                  <img src='/src/assets/img/bg-serv-2.jpg' alt='bg-features' />
+                  <img src={image2} alt='bg-features' />
                 </div>
                 <div className='content'>
                   <div className='heading'>Interior</div>
@@ -63,7 +64,7 @@ export default function Home () {
             <div className='col-md-4 p-0'>
               <div className='features'>
                 <div className='bg'>
-                  <img src='/src/assets/img/bg-serv-3.jpg' alt='bg-features' />
+                  <img src={image2} alt='bg-features' />
                 </div>
                 <div className='content'>
                   <div className='heading'>Architecture</div>

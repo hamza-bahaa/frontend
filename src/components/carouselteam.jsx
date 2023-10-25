@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
-
+import image2 from '../assets/img/porto.jpg'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
@@ -72,7 +72,7 @@ export default class Responsive extends Component {
           <CustomSlide className='itm' index={1}>
             <div className='bg'>
               <img
-                src='/src/assets/img/team/img1.jpg'
+                src={image2}
                 className='img-fluid'
                 alt='Imageteam'
               />
@@ -97,7 +97,7 @@ export default class Responsive extends Component {
           <CustomSlide className='itm' index={2}>
             <div className='bg'>
               <img
-                src='/src/assets/img/team/img2.jpg'
+                src={image2}
                 className='img-fluid'
                 alt='Imageteam'
               />
@@ -122,7 +122,7 @@ export default class Responsive extends Component {
           <CustomSlide className='itm' index={3}>
             <div className='bg'>
               <img
-                src='/src/assets/img/team/img3.jpg'
+                src={image2}
                 className='img-fluid'
                 alt='Imageteam'
               />
@@ -147,7 +147,7 @@ export default class Responsive extends Component {
           <CustomSlide className='itm' index={4}>
             <div className='bg'>
               <img
-                src='/src/assets/img/team/img4.jpg'
+                src={image2}
                 className='img-fluid'
                 alt='Imageteam'
               />

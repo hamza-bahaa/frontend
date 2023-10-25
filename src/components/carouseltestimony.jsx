@@ -2,6 +2,7 @@ import { Component } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import imagej from '../assets/img/testimony.jpg'
 import { props } from 'prop-types'
 class CustomSlide extends Component {
   /**
@@ -75,7 +76,7 @@ export default class Responsive extends Component {
       <section
         className='container-fluid  wraper-testimony'
         style={{
-          backgroundImage: `url(${'/src/assets/img/testimony.jpg'})`
+          backgroundImage: `url(${imagej})`
         }}
       >
         <div className='row m-10-hor'>

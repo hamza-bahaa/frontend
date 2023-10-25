@@ -1,14 +1,15 @@
 //import ImageGallery from "../components/ImageGallery";
 import Footer from '../components/footer'
+import image2 from '../assets/img/bg-about.jpg'
 
 export default function Home2 () {
   return (
     <>
       <div>
         <section
-          className='jumbotron breadcumb object-cover bg-center     object-cover bg-center h-vh'
+          className='jumbotron breadcumb  object-cover bg-center h-vh'
           style={{
-            backgroundImage: `url(${'/src/assets/img/imghome2.jpg'})`
+            backgroundImage: `url(${image2})`
           }}
         >
           <div className='homebread'>
@@ -74,7 +75,7 @@ export default function Home2 () {
             <div className='col-md-4 p-0'>
               <div className='features'>
                 <div className='bg'>
-                  <img src='/src/assets/img/bg-serv-1.jpg' alt='bg-features' />
+                  <img src={image2} alt='bg-features' />
                 </div>
                 <div className='content'>
                   <div className='heading'>Concept Design</div>
@@ -94,7 +95,7 @@ export default function Home2 () {
             <div className='col-md-4 p-0'>
               <div className='features'>
                 <div className='bg'>
-                  <img src='/src/assets/img/bg-serv-2.jpg' alt='bg-features' />
+                  <img src={image2} alt='bg-features' />
                 </div>
                 <div className='content'>
                   <div className='heading'>Interior</div>
@@ -114,7 +115,7 @@ export default function Home2 () {
             <div className='col-md-4 p-0'>
               <div className='features'>
                 <div className='bg'>
-                  <img src='/src/assets/img/bg-serv-3.jpg' alt='bg-features' />
+                  <img src={image2} alt='bg-features' />
                 </div>
                 <div className='content'>
                   <div className='heading'>Architecture</div>

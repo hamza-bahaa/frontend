@@ -1,3 +1,5 @@
+ //import image1 from '../assets/img/bg-about.jpg'
+
 export default function Pricing () {
   return (
     <>

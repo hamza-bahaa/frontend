@@ -1,5 +1,6 @@
 import Testimony from '../components/carouseltestimony'
 import Footer from '../components/footer'
+import image2 from '../assets/img/bg-about.jpg'
 
 export default function Service2 (params) {
   return (
@@ -8,7 +9,7 @@ export default function Service2 (params) {
         <section
           className=' jumbotron breadcumb relative  h-[50vh]  object-cover items-center bg-center object-center bg-cover w-full'
           style={{
-            backgroundImage: `url(${'/src/assets/img/service.jpg'})`
+            backgroundImage: `url(${image2})`
           }}
         >
           <div>
@@ -31,7 +32,7 @@ export default function Service2 (params) {
             <div className='col-md-8'>
               <div className='left'>
                 <div className='mainimg'>
-                  <img src='/src/assets/img/service2.jpg' alt='imgservice' />
+                  <img src={image2} alt='imgservice' />
                 </div>
                 <div className='content'>
                   <div className='title'>Architecture</div>
@@ -92,14 +93,14 @@ export default function Service2 (params) {
                 </ul>
                 <div className='bannerservice'>
                   <div className='imgbg'>
-                    <img src='/src/assets/img/bg-widget.jpg' alt='imgservice' />
+                    <img src={image2} alt='imgservice' />
                   </div>
                   <div className='contb'>
                     <div className='headingb'>Get A quote</div>
                     <div className='descb'>With Experts Advice</div>
                     <div
                       className='btn'
-                      onClick={() => window.open('/#', '_self')}
+                      onClick={() => window.open('/', '_self')}
                     >
                       <span className='shine'></span>
                       <span>Click here</span>

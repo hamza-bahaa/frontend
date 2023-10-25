@@ -2,7 +2,7 @@ import { createRoot } from 'react-dom/client'
 import { ThemeProvider } from '@material-tailwind/react'
 import React from 'react'
 //import { ChakraProvider } from '@chakra-ui/react'
-import ReactDOM from 'react-dom/client'
+//import ReactDOM from 'react-dom/client'
 
 // Import Bootstrap CSS and JavaScript
 import 'bootstrap'
@@ -20,7 +20,7 @@ import App from './App.jsx'
 // Import service worker registration code
 //import * as serviceWorker from './serviceWorker'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider>
       <App />

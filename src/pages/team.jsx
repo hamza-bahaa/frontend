@@ -1,5 +1,6 @@
 import Testimony from '../components/carouseltestimony'
 import Footer from '../components/footer'
+import image1 from '../assets/img/bg-about.jpg'
 import Carouselteam from '../components/carouselteam'
 
 export default function Team () {
@@ -9,7 +10,7 @@ export default function Team () {
         <section
           className=' jumbotron breadcumb relative  h-[50vh]  object-cover items-center bg-center object-center bg-cover w-full'
           style={{
-            backgroundImage: `url(${'/src/assets/img/team.jpg'})`
+            backgroundImage: `url(${image1})`
           }}
         >
           <div>

@@ -1,5 +1,6 @@
 import Testimony from '../components/carouseltestimony'
 import Footer from '../components/footer'
+import image1 from '../assets/img/bg-about.jpg'
 export default function about () {
   return (
     <>
@@ -7,7 +8,7 @@ export default function about () {
         <section
           className=' jumbotron breadcumb relative  h-[50vh]  object-cover items-center bg-center object-center bg-cover w-full'
           style={{
-            backgroundImage: `url(${'/src/assets/img/bg-about.jpg'})`
+            backgroundImage: `url(${image1})`
           }}
         >
           <div>
@@ -44,11 +45,7 @@ export default function about () {
         <section className='container-fluid p-0'>
           <div className='row'>
             <div className='col-md-6 px-0'>
-              <img
-                src='/src/assets/img/bg-about.jpg'
-                className='imgslickz'
-                alt='#'
-              />
+              <img src={image1} className='imgslickz' alt='#' />
             </div>
 
             <div className='col-md-6 max-sm:container centered p-md-5 mx-auto max-w-[1200px] pt-5'>
@@ -80,7 +77,7 @@ export default function about () {
             </div> */}
 
             {/* <div className='col-md-6 px-0'>
-              <img src='/src/assets/img/bg-about-1.jpg' className='imgslickz' alt='#' />
+              <img src={ image1}jpg' className='imgslickz' alt='#' />
             </div> */}
           </div>
         </section>

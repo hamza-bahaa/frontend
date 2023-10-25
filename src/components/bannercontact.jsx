@@ -1,3 +1,4 @@
+import image2 from '../assets/img/bg-about.jpg'
 export default function BannerContact () {
   return (
     <>
@@ -6,7 +7,7 @@ export default function BannerContact () {
         <div className='row'>
           <div className='col-md-6'>
             <img
-              src='/src/assets/img/mocks.jpg'
+              src={image2}
               alt='imgbanner'
               className='w-100 border-radius'
             />
